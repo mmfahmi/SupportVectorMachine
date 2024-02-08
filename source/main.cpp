@@ -37,7 +37,7 @@ int main()
     {
         cin>>x>>oper>>y;
         result=c.Calculate(x,oper,y);
-        cout<<"Result "<<"of "<<x<<oper<<y<<"is: "<<result;
+        cout<<"Result of "<<x<<" "<<oper<<" "<<y<<" is: "<<result;
     }
     
     return 0;
