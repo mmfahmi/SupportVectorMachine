@@ -126,7 +126,7 @@ void trainSVM(vector<double> &x1, vector<double> &x2, vector<int> &y)
 
         {
 
-            cout <<"Iter : "<< iter << " cost = "<< cost << " dw1 = " << dw1 << " dw2 = " << dw2 << " db = "<< db << endl;
+            cout << "Iter : " << iter << " cost = " << cost << " dw1 = " << dw1 << " dw2 = " << dw2 << " db = " << db << endl;
         }
 
         iter++;
@@ -135,7 +135,7 @@ void trainSVM(vector<double> &x1, vector<double> &x2, vector<int> &y)
 
         {
 
-            cout <<"y = "<< w1 <<" * x1 + "<< w2 <<" * x2 + "<< b << endl;
+            cout << "y = " << w1 << " * x1 + " << w2 << " * x2 + " << b << endl;
 
             break;
         }
